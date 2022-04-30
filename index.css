@@ -1,0 +1,61 @@
+.body{
+    overflow-x: hidden;
+   
+}
+.heading{
+    position: absolute;
+    width: 1380px;
+    height: 97px;
+    border: 5px rgb(207, 6, 6);
+    background-color: #162447;
+    text-align: center;
+    font-size: 40px;
+    text-decoration-line: underline;
+    color: #FCFFE7;
+    padding-top: 20px;
+   }
+  img {
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    margin-left: 1200px;
+    margin-top: -65px;
+  }
+  
+  
+  .theory
+  {
+    padding-top: 130px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    width: 1200px;
+    background-color: #1F4068;
+    color: #FCFFE7;
+    font-size: 25px;
+  }
+  .codes
+  {
+    background-color: black;
+    width: 600px;
+  }
+  .test
+  {
+    position: absolute;
+    width: 1300px;
+    height: 950px;
+    border: 5px black;
+    padding-left: 80px;
+    background-color: #42679c;
+    color: #FCFFE7;
+    font-size: 30px;
+  }
+  .code{
+    position: absolute;
+    padding-left: 80px;
+    width: 1800px;
+    padding-bottom: 60px;
+    margin-right: 1700px;
+    margin-top: 90px;
+    
+  } 
