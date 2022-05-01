@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Try Catch</title>
+</head>
+
+<body class="body">
+    <div class ="heading">
+        <div><b>Exception Handling</b></div>
+       <img src="image/java.jpg.png">
+      </div>
+      <div class ="theory">
+        <h2><center><u>TRY CATCH</u></center></h2>
+        <div><h3>THEORY</h3></div>
+        
+
+         <p><li> The try statement allows you to define a block of code to be tested for errors while it is being executed.<br></li>
+         
+         <li> The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.<br><br></li>
+          
+         The try and catch keywords come in pairs:</p>
+         <h5>Syntax:</h5>
+         <div class = "codes">
+         <p>try {<br>
+          //  Block of code to try<br>
+        }<br>
+        catch(Exception e) {<br>
+          //  Block of code to handle errors<br>
+        }<br></p>
+         </div>
+         <h5>Example:</h5>
+         <div class = "codes">
+           <p>public class Main {<br>
+            public static void main(String[ ] args) {<br>
+              try {<br>
+                int[ ] myNumbers = {1, 2, 3};<br>
+                System.out.println(myNumbers[10]);<br>
+              } catch (Exception e) {<br>
+                System.out.println("Something went wrong.");<br>
+              }<br>
+            }<br>
+          }</p>
+         </div>
+         <h5>Output:</h5>
+           <div class="codes">
+            Something went wrong.
+           </div>
+           <h4><u>Finally</u></h4>
+           <p>The finally statement lets you execute code, after try...catch, regardless of the result:</p>
+           <h5>Example:</h5>
+           <div class="codes">
+            public class Main {<br>
+              public static void main(String[ ] args) {<br>
+                try {<br>
+                  int[ ] myNumbers = {1, 2, 3};<br>
+                  System.out.println(myNumbers[10]);<br>
+                } catch (Exception e) {<br>
+                  System.out.println("Something went wrong.");<br>
+                } finally {<br>
+                  System.out.println("The 'try catch' is finished.");<br>
+                }<br>
+              }<br>
+            }<br>
+           </div>
+           <h5>Output:</h5>
+            <div class = "codes">
+              Something went wrong.<br>
+              The 'try catch' is finished.<br>
+            </div>
+      </div>
+      <div class ="test">
+        <div><b>Try Your Self</b></div>
+      </div>
+      <div class ="code">
+      <iframe src="https://www.onlinegdb.com/" height="800" width="1200">
+      </iframe>
+      <h3><i>AGASTYA SINGH - 2029142</i></h3>
+      </div>
+ 
+</body>
+</html>
